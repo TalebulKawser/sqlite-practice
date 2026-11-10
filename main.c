@@ -21,7 +21,7 @@ int main(void)
     int changed = db_update_balance(db, 105, 5620.69);
     if (changed == 0)
     {
-        printf("No such account exists in this db.\n");
+        printf("No such account exists in this database.\n");
     }
     db_print_accounts(db);
 
